@@ -30,34 +30,6 @@ sudo apt-get update && sudo apt-get install oracle-java8-installer
 
 sudo apt-get install vim curl git-core git python-software-properties curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 
---------------------------------------------------------------------------
-sudo apt-get install eclipse
-or
-install eclipse with web installer and add the shortcut to launcher.
-First, create a .desktop file to eclipse:
-
-gedit ~/.local/share/applications/opt_eclipse.desktop
-
-Then, paste this inside (dont forget to edit Exec and Icon values):
-
-[Desktop Entry]
-Type=Application
-Name=Eclipse
-Comment=Eclipse Integrated Development Environment
-Icon=** something like /opt/eclipse/icon.xpm **
-Exec= ** something like /opt/eclipse/eclipse **
-Terminal=false
-Categories=Development;IDE;Java;
-StartupWMClass=Eclipse
-
-After that, open that folder with nautilus:
-
-nautilus ~/.local/share/applications
-
-If you want to use this launcher outside dash/launcher (ex: as a desktop launcher) you need to add execution permission by right clicking the file and choosing Properties -> Permissions -> Allow execution, or, via the command-line:
-
-chmod +x ~/.local/share/applications/opt_eclipse.desktop
----------------------------------------------------------------------------------
 sudo apt-add-repository ppa:mmk2410/intellij-idea-community
 
 sudo apt-get update && sudo apt-get install intellij-idea-community
@@ -89,3 +61,5 @@ sudo apt-get install sshpass
 sudo apt-get install glogg
 
 sudo apt install kdelibs-bin
+
+install scala, spark, yatta and eclipses
