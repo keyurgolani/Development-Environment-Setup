@@ -62,4 +62,4 @@ sudo apt-get install glogg
 
 sudo apt install kdelibs-bin
 
-install scala, spark, yatta and eclipses
+install scala, spark, goLang, yatta and eclipses
