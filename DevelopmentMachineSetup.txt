@@ -38,6 +38,8 @@ sudo apt-get install zsh && curl -L http://install.ohmyz.sh | sh
 
 sudo apt-get install python-pip
 
+pip install --upgrade pip
+
 sudo pip install virtualenv
 
 mkdir ~/.virtualenvs
@@ -50,7 +52,7 @@ sudo sh -c 'echo ". /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc'
 
 sudo apt-get install mysql-server mysql-client libmysqlclient-dev mysql-workbench
 
-sudo apt-get install nodejs && sudo apt-get install npm
+sudo apt-get install nodejs && sudo apt-get install npm && sudo apt-get install nodejs-legacy
 
 sudo apt-get install p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
 
@@ -62,4 +64,10 @@ sudo apt-get install glogg
 
 sudo apt install kdelibs-bin
 
-install scala, spark, goLang, yatta and eclipses
+sudo apt-get install scala
+
+sudo apt-get install golang
+
+install spark, yatta and eclipses
+
+sudo npm install -g node-red
