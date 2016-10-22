@@ -325,6 +325,10 @@ function load()
     echo $((10#$SYSLOAD))       # Convert to decimal.
 }
 
+function gi() {
+  curl -L -s https://www.gitignore.io/api/$@;
+}
+
 getlocation() { lynx -dump http://www.ip-adress.com/ip_tracer/?QRY=$1|grep address|egrep 'city|state|country'|awk '{print $3,$4,$5,$6,$7,$8}'|sed 's\ip address flag \\'|sed 's\My\\';} 
 
 export LESS_TERMCAP_mb=$(printf '\e[01;31m') # enter blinking mode – red
